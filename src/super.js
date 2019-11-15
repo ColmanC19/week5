@@ -1,29 +1,38 @@
-export function Age(mercury, venus, mars, jupiter) {
+export function Age(years, mercury, venus, mars, jupiter) {
   this.years= years;
+  this.mercury = mercury;
+  this.venus = venus;
+  this.mars = mars;
+  this.jupiter = jupiter;
+
 }
-let yearsOld = 0;
-let expectancy = 77;
+const yearsOld = ;
+const expectancy = ;
 
 Age.prototype.mercury = function() {
-  if (true){
-    this.years*.24;
+  const mercuryAge = .24;
+  let years = this.years*.24;
+  return years;
   }
 
 }
 Age.prototype.venus = function() {
-  if (true){
-    this.years*.62;
+  const venusAge = .62;
+  let years = this.years*.62;
+  return years;
   }
 }
 Age.prototype.mars = function() {
-  if (true){
-    this.years*1.88;
+  const marsAge = 1.88;
+  let years = this.years*1.88;
+  return years;
   }
 
 }
 Age.prototype.jupiter = function() {
-  if (true){
-    this.years*11.86;
+  const venusAge = 11.86;
+  let years = this.years*11.86;
+  return years;
   }
 
 }

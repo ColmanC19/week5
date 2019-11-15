@@ -1,4 +1,5 @@
 import { Age } from './../src/super.js';
+
 describe("Age", () => {
 test("should correctly multiply the user age by 0.24, () => "{
   var age = new age(10);

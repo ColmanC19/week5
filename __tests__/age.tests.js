@@ -5,13 +5,13 @@ describe("Age", () => {
     let age = new Age(10);
     expect(age.years).toEqual(10);
     let mercuryAge = age.mercury();
-    console.log(mercuryAge);
     expect(mercuryAge).toEqual(2.4);
   });
-  // test("should correctly multiply the user age by .62", () => {
-  //   var age = new Age(10);
-  //   expect(this.years).toEqual(6.2);
-  // });
+  test("should correctly multiply the user age by 0.62", () => {
+    let age = new Age(10);
+    let venusAge = age.venus();
+    expect(venusAge).toEqual(6.2);
+  });
   // test("should correctly multiply the user age by 1.88", () => {
   //   var age = new Age(10);
   //   expect(this.years).toEqual(18.8);

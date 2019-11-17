@@ -12,7 +12,12 @@ export class Age {
 
   mercury() {
     const mercuryAge = .24;
-    let years = (this.years*.24);
+    let years = (this.years*mercuryAge);
+    return years;
+  }
+  venus() {
+    const venusAge = .62;
+    let years = (this.years*venusAge);
     return years;
   }
 

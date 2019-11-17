@@ -17,6 +17,11 @@ describe("Age", () => {
     let marsAge = age.mars();
     expect(marsAge).toEqual(18.8);
   });
+  test("should correctly multiply the user age by 11.86", () => {
+    let age = new Age(10);
+    let jupiterAge = age.jupiter();
+    expect(jupiterAge).toEqual(118.6);
+  });
   // test("should correctly multiply the user age by 1.88", () => {
   //   var age = new Age(10);
   //   expect(this.years).toEqual(18.8);

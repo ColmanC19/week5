@@ -20,6 +20,11 @@ export class Age {
     let years = (this.years*venusAge);
     return years;
   }
+  mars() {
+    const marsAge = 1.88;
+    let years = (this.years*marsAge);
+    return parseFloat(years.toFixed(1));
+  }
 
   // Age.prototype.venus = function() {
   //   const venusAge = .62;

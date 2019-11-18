@@ -27,10 +27,11 @@ Specs
 3. Return their age in Venus years || expected outcome: their age*0.62
 4. Returns their age in Mars years || expected outcome: their age*1.88
 5. Returns their age in Jupiter years || expected outcome: their age*11.86
-6. Returns how many years they have left to live in mercury years.
-7. Returns how many years they have left to live in Venus years.
-8. Returns how many years they have left to live in Mars years.
-9. Returns how many years they have left to live in Jupiter years.
+6. Return the life expectancy || Average life expectancy for person in USA is 77.8.
+7. Returns how many years they have left to live in mercury years || Calculates years on earth to years on mercury then subtracts that from life expecancy multiplied by years on mercury.
+8. Returns how many years they have left to live in Venus years. || Calculates years on earth to years on venus then subtracts that from life expecancy multiplied by years on venus.
+9. Returns how many years they have left to live in Mars years. || Calculates years on earth to years on mars then subtracts that from life expecancy multiplied by years on mars.
+10. Returns how many years they have left to live in Jupiter years. || Calculates years on earth to years on jupiter then subtracts that from life expecancy multiplied by years on jupiter.
 
 Issues
 No known bugs at this point

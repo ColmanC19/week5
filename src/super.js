@@ -37,6 +37,9 @@ export class Age {
   expectancy() {
     const lifeExpectancy = 77.8;
     let years = (lifeExpectancy-this.years);
+      if (this.years>77.8) {
+        return ("Nice job, you're excelling at life!");
+      } else {
     return parseFloat(years.toFixed(1));
   }
 

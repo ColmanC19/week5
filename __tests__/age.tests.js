@@ -31,4 +31,9 @@ describe("Age", () => {
     let mercuryExpectancy = age.mercuryExpectancy();
     expect(mercuryExpectancy).toEqual(16.27);
   });
+  test("should correctly show the users life expectancy on venus", () => {
+    let age = new Age(10);
+    let venusExpectancy = age.venusExpectancy();
+    expect(venusExpectancy).toEqual(42.1);
+  });
 });

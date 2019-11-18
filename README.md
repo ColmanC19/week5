@@ -27,7 +27,11 @@ Specs
 3. Return their age in Venus years || expected outcome: their age*0.62
 4. Returns their age in Mars years || expected outcome: their age*1.88
 5. Returns their age in Jupiter years || expected outcome: their age*11.86
-6. Allow user to enter if they are Male or Female, then let them know the average life expectancy on each planet and how much longer they have on their planet.... || expected output: Men have an average life expectancy of 77 while women are 78(in the US~2017). Return life expectancy minus their current galactic age. 
+6. Returns how many years they have left to live in mercury years.
+7. Returns how many years they have left to live in Venus years.
+8. Returns how many years they have left to live in Mars years.
+9. Returns how many years they have left to live in Jupiter years.
+
 Issues
 No known bugs at this point
 

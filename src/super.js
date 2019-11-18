@@ -50,10 +50,10 @@ export class Age {
     let years = (lifeExpectancy - this.venus());
     return parseFloat(years.toFixed(2));
   }
-  //
-  // Age.prototype.expectancy = function() {
-  //   if (this.years > 1){
-  //     (yearsOld-expectancy);
-  //   }
-  //  }
+  marsExpectancy() {
+    const lifeExpectancy = 146.264;
+    let years = (lifeExpectancy - this.mars());
+    return parseFloat(years.toFixed(3));
+  }
+
 };

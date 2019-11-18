@@ -41,4 +41,9 @@ describe("Age", () => {
     let marsExpectancy = age.marsExpectancy();
     expect(marsExpectancy).toEqual(127.464);
   });
+  test("should correctly show the users life expectancy on jupiter", () => {
+    let age = new Age(10);
+    let jupiterExpectancy = age.jupiterExpectancy();
+    expect(jupiterExpectancy).toEqual(804.108);
+  });
 });

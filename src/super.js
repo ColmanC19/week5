@@ -45,14 +45,22 @@ export class Age {
     let years = (lifeExpectancy - this.mercury());
     return parseFloat(years.toFixed(2));
   }
+
   venusExpectancy() {
     const lifeExpectancy = 48.3;
     let years = (lifeExpectancy - this.venus());
     return parseFloat(years.toFixed(2));
   }
+
   marsExpectancy() {
     const lifeExpectancy = 146.264;
     let years = (lifeExpectancy - this.mars());
+    return parseFloat(years.toFixed(3));
+  }
+
+  jupiterExpectancy() {
+    const lifeExpectancy = 922.708;
+    let years = (lifeExpectancy - this.jupiter());
     return parseFloat(years.toFixed(3));
   }
 

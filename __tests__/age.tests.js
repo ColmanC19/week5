@@ -22,12 +22,9 @@ describe("Age", () => {
     let jupiterAge = age.jupiter();
     expect(jupiterAge).toEqual(118.6);
   });
-  // test("should correctly multiply the user age by 1.88", () => {
-  //   var age = new Age(10);
-  //   expect(this.years).toEqual(18.8);
-  // });
-  // test("should correctly multiply the user age by 11.86", () => {
-  //   var age = new Age(10);
-  //   expect(this.years).toEqual(118.6);
-  // });
+  test("should correctly subtract user age from 77.8", () => {
+    let age = new Age(25);
+    let lifeExpectancy = age.expectancy();
+    expect(lifeExpectancy).toEqual(52.8);
+  });
 });

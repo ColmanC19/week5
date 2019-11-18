@@ -21,36 +21,25 @@ export class Age {
     let years = (this.years*venusAge);
     return years;
   }
-  
+
   mars() {
     const marsAge = 1.88;
     let years = (this.years*marsAge);
     return parseFloat(years.toFixed(1));
   }
-  
+
   jupiter() {
     const jupiterAge = 11.86;
     let years = (this.years*jupiterAge);
     return parseFloat(years.toFixed(2));
   }
-  
 
-  // Age.prototype.venus = function() {
-  //   const venusAge = .62;
-  //   let years = this.years*.62;
-  //   return years;
-  //   }
-  // Age.prototype.mars = function() {
-  //   const marsAge = 1.88;
-  //   let years = this.years*1.88;
-  //   return years;
-  //   }
-  //
-  // Age.prototype.jupiter = function() {
-  //   const venusAge = 11.86;
-  //   let years = this.years*11.86;
-  //   return years;
-  //   }
+  expectancy() {
+    const lifeExpectancy = 77.8;
+    let years = (lifeExpectancy-this.years);
+    return parseFloat(years.toFixed(1));
+  }
+
   //
   // Age.prototype.expectancy = function() {
   //   if (this.years > 1){

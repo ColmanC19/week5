@@ -13,7 +13,7 @@ By Colman Currie
 Fifth independent project I completed for Epicodus. This project is focused on building out separate .js forms, using webpacks to bundle and testing with jest.
 
 Setup/Installation Requirements
-Using your terminal you can git clone this project to your desktop.
+Using your terminal you can git clone this project to your desktop. run "npm run build" in your terminal after opening the project. This will install webpacks. 
 
 Then you will call the directory using your terminal, make sure you're in the desktop and cd "project name here"
 

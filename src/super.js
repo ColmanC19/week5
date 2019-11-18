@@ -40,6 +40,12 @@ export class Age {
     return parseFloat(years.toFixed(1));
   }
 
+  mercuryExpectancy() {
+    const lifeExpectancy = 18.67;
+    let years = (lifeExpectancy - this.mercury());
+    return parseFloat(years.toFixed(2));
+  }
+
   //
   // Age.prototype.expectancy = function() {
   //   if (this.years > 1){

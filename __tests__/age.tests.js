@@ -3,7 +3,6 @@ import { Age } from './../src/super.js';
 describe("Age", () => {
   test("should correctly multiply the user age by 0.24", () => {
     let age = new Age(10);
-    expect(age.years).toEqual(10);
     let mercuryAge = age.mercury();
     expect(mercuryAge).toEqual(2.4);
   });
@@ -26,5 +25,10 @@ describe("Age", () => {
     let age = new Age(25);
     let lifeExpectancy = age.expectancy();
     expect(lifeExpectancy).toEqual(52.8);
+  });
+  test("should correctly show the users life expectancy on mercury", () => {
+    let age = new Age(10);
+    let mercuryExpectancy = age.mercuryExpectancy();
+    expect(mercuryExpectancy).toEqual(16.27);
   });
 });

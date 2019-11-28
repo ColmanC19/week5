@@ -12,25 +12,25 @@ export class Age {
 
   mercury() {
     const mercuryAge = .24;
-    let years = (this.years*mercuryAge);
+    let years = (this.years/mercuryAge);
     return years;
   }
 
   venus() {
     const venusAge = .62;
-    let years = (this.years*venusAge);
+    let years = (this.years/venusAge);
     return years;
   }
 
   mars() {
     const marsAge = 1.88;
-    let years = (this.years*marsAge);
+    let years = (this.years/marsAge);
     return parseFloat(years.toFixed(1));
   }
 
   jupiter() {
     const jupiterAge = 11.86;
-    let years = (this.years*jupiterAge);
+    let years = (this.years/jupiterAge);
     return parseFloat(years.toFixed(2));
   }
 

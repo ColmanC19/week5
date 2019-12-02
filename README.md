@@ -19,13 +19,13 @@
 
 ## Setup/Installation Requirements
 
-*_Using your terminal you can git clone this project to your desktop._
+* Using your terminal you can git clone this project to your desktop.
 
-*Run "npm run build" in your terminal after opening the project. This will install webpacks.
+* Run "npm run build" in your terminal after opening the project. This will install webpacks.
 
-*Then you will call the directory using your terminal, make sure you're in the desktop and cd "project name here"
+* Then you will call the directory using your terminal, make sure you're in the desktop and cd "project name here"
 
-*If you don't wish to make any changes you can simply double click the index.html inside that cloned directory and it will open an html page in your internet browser.
+* If you don't wish to make any changes you can simply double click the index.html inside that cloned directory and it will open an html page in your internet browser.
 
 
 _This project uses the lates versions of webpack, webpack.config, css, Jquery, Bootstrap._
